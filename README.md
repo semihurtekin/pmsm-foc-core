@@ -24,14 +24,6 @@ use the full unsigned 16-bit range. The code follows MISRA-C:2012-oriented
 practices where practical, but it has not been checked with a formal MISRA
 tool (HelixQAC etc.) and is not presented as production-ready software.
 
-## Build
-
-```sh
-cmake -S . -B build
-cmake --build build
-ctest --test-dir build
-```
-
 Applications may include the complete public API through:
 
 ```c
